@@ -1,0 +1,5 @@
+Flask
+Flask-Session
+redis
+pandas
+-e git+https://github.com/shahcompbio/scgenome.git#egg=scgenome

@@ -1,5 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+.vscode
+
+# server
+/server/venv
+/server/data
+/server/__pycache__
+
 # dependencies
 /node_modules
 /.pnp
