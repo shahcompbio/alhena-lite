@@ -5,6 +5,35 @@ Local, lightweight version of the [Alhena](https://github.com/shahcompbio/alhena
 Bootstrapped from this [boilerplate](https://github.com/shahcompbio/viz-react-boilerplate)
 
 
+Backend is a Flask API layer connected to a redis cache to store local bin data.
+Frontend is 
+
+## Start
+
+To start app, run redis layer first
+
+```
+redis-server
+```
+
+Then start the virtualenv for flask and run
+
+```
+cd server
+
+source venv/bin/activate
+
+export FLASK_APP=server.py
+
+flask run
+```
+
+Then you can start the React layer
+
+```
+yarn start
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
